@@ -5,36 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b7e0b68-8f6e-494c-b7fd-6fba6eac8eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PhotoCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProtectedRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/PhotoDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Upload.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/PhotoCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PhotoCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProtectedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProtectedRoute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/PhotoDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/PhotoDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Upload.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Upload.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,33 +43,38 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="3B0ogEhO5QTEhrVnvILG5IdJeda" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Xermy/Downloads/JSharPix.Offi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xermy/Downloads/JSharPix.Offi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,7 +92,9 @@
       <updated>1773635458223</updated>
       <workItem from="1773635459325" duration="1280000" />
       <workItem from="1773678239240" duration="342000" />
-      <workItem from="1773678661178" duration="1072000" />
+      <workItem from="1773678661178" duration="2162000" />
+      <workItem from="1773594481012" duration="159000" />
+      <workItem from="1773694947249" duration="258000" />
     </task>
     <servers />
   </component>
