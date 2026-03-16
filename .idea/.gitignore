@@ -1,0 +1,15 @@
+# Entorno
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Base de datos
+instance/
+
+# Fotos privadas de usuarios
+uploads/
+
+# IntelliJ
+.idea/
+*.iml
