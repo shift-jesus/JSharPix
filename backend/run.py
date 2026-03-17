@@ -9,8 +9,12 @@ from routes import photos
 
 app = Flask(__name__)
 app.config.from_object(Config)
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+app.config['SESSION_COOKIE_SECURE']   = False
 
-CORS(app, supports_credentials=True, origins=['http://localhost:5173'])
+CORS(app,
+     resources={r"/api/*": {"origins": "http://localhost:5173"}},
+     supports_credentials=True)
 
 db.init_app(app)
 
@@ -21,7 +25,7 @@ login_manager.login_view = 'auth.login'
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-app.register_blueprint(auth, url_prefix='/api/auth')
+app.register_blueprint(auth,   url_prefix='/api/auth')
 app.register_blueprint(photos, url_prefix='/api/photos')
 
 if __name__ == '__main__':

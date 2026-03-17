@@ -4,12 +4,10 @@ import api from '../services/api'
 const AuthContext = createContext()
 
 export function AuthProvider({ children }) {
-    const [user, setUser] = useState(null)
+    const [user, setUser]       = useState(null)
     const [loading, setLoading] = useState(true)
 
-    useEffect(() => {
-        checkAuth()
-    }, [])
+    useEffect(() => { checkAuth() }, [])
 
     const checkAuth = async () => {
         try {
@@ -40,7 +38,7 @@ export function AuthProvider({ children }) {
     }
 
     return (
-        <AuthContext.Provider value={{ user, loading, login, register, logout }}>
+        <AuthContext.Provider value={{ user, loading, login, register, logout, checkAuth }}>
             {!loading && children}
         </AuthContext.Provider>
     )
