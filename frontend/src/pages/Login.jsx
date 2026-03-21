@@ -98,7 +98,7 @@ export default function Login() {
                 </div>
                 <div style={{ display:'flex', flexDirection:'column', gap:5 }}>
                     {['GitHub','About'].map(l => (
-                        <a key={l} href="#" style={{ fontSize:12, color:t.muted, textDecoration:'none', fontFamily:'Syne,sans-serif', letterSpacing:.5, transition:'color .2s' }}
+                        <a key={l} href="https://github.com/shift-jesus/JSharPix" style={{ fontSize:12, color:t.muted, textDecoration:'none', fontFamily:'Syne,sans-serif', letterSpacing:.5, transition:'color .2s' }}
                            onMouseEnter={e => e.target.style.color='#c9a84c'}
                            onMouseLeave={e => e.target.style.color=t.muted}
                         >{l}</a>
