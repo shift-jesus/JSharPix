@@ -1,15 +1,17 @@
 {
-  "buildCommand": "",
-  "installCommand": "pip install -r requirements.txt",
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.9"
+  "experimentalServices": {
+    "frontend": {
+      "entrypoint": "frontend",
+      "routePrefix": "/",
+      "framework": "vite",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build"
+    },
+    "backend": {
+      "entrypoint": "backend",
+      "routePrefix": "/_/backend",
+      "installCommand": "pip install -r requirements.txt",
+      "buildCommand": ""
     }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/index"
-    }
-  ]
+  }
 }
