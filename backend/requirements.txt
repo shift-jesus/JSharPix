@@ -3,3 +3,10 @@ Flask-Login==0.6.3
 Flask-SQLAlchemy==3.1.1
 Werkzeug==3.0.3
 Pillow==10.4.0
+
+flask
+flask-sqlalchemy
+flask-login
+flask-cors
+pillow
+python-dotenv
