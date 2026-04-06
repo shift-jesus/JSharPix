@@ -3,15 +3,11 @@
     "frontend": {
       "entrypoint": "frontend",
       "routePrefix": "/",
-      "framework": "vite",
-      "installCommand": "npm install",
-      "buildCommand": "npm run build"
+      "framework": "vite"
     },
     "backend": {
       "entrypoint": "backend",
-      "routePrefix": "/_/backend",
-      "installCommand": "pip install -r requirements.txt",
-      "buildCommand": ""
+      "routePrefix": "/_/backend"
     }
   }
 }
